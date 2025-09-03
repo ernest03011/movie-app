@@ -1,6 +1,6 @@
 import { createContext, useState, useEffect } from "react";
 
-const MovieContext = createContext();
+export const MovieContext = createContext();
 
 const MovieProvider = ({ children }) => {
   const [favorites, setFavorites] = useState([]);
